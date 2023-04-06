@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+*,
+body {
+  /* sans-serif; */
+  font-family: "DM Sans";
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ff6158;
+  --backColor: #0e0605;
+}
+
+p {
+  color: var(--backColor);
+}
+
+img {
+  max-width: 100% !important;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.btn-primary {
+  color: white;
+  background-color: var(--primary);
+}
+
+/* header  */
+header {
+  background-image: url(/image/HeroBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover ul {
+  display: block;
+}
+.dropdown ul {
+  position: absolute;
+  top: 25px;
+  left: -12px;
+  background-color: white;
+  display: none;
+
+  width: 80px;
+}
+.dropdown ul li {
+  padding: 10px 0px;
+  padding: 10px;
+}
+.dropdown ul li:hover {
+  /* background-color: var(--primary); */
+}
+
+/* media query */
+@media only screen and (max-width: 1023px) {
+  .menuUL {
+    /* display: none; */
+    position: absolute;
+    top: 88px;
+    left: 0;
+    height: 100vh;
+    background-color: #ff605818;
+    width: 50vw;
+    min-width: 300px;
+    max-width: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+  }
+  .menuUL li {
+    padding: 10px 0;
+  }
+  .dropdown ul {
+    left: 80px;
+    width: 150px;
+  }
+}
