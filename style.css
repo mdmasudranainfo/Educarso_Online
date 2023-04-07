@@ -66,6 +66,58 @@ header {
   /* background-color: var(--primary); */
 }
 
+/* slider start */
+.sliderBox:hover {
+  background-color: var(--primary);
+  transition: 0.3s;
+  color: white;
+}
+.sliderBox:hover p {
+  color: white;
+  transition: 0.3s;
+}
+/* slider end  */
+
+/* courses start  */
+
+.courses {
+  background-image: url(/image/CourseBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* courses end  */
+
+.CourseBox {
+  transition: 1s;
+}
+.CourseBox:hover .courseText {
+  padding-top: 130px;
+  transition: 0.3s;
+}
+
+.CourseBox:hover .courseImg {
+  display: none;
+}
+.cursePragruf {
+  transition: 0.5s;
+}
+.CourseBox:hover .bookmarkIcone {
+  background-color: var(--primary);
+  color: white;
+  transition: 0.3s;
+}
+
+.CourseBox:hover .cursePragruf {
+  display: block;
+  transition: 0.5s;
+}
+
+.CourseBox:hover .button {
+  display: block;
+  transition: 0.5s;
+}
+
 /* media query */
 @media only screen and (max-width: 1023px) {
   .menuUL {
