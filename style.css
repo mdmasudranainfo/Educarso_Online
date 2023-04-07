@@ -86,7 +86,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* courses end  */
 
 .CourseBox {
   transition: 1s;
@@ -116,6 +115,22 @@ header {
 .CourseBox:hover .button {
   display: block;
   transition: 0.5s;
+}
+
+/* courses end  */
+
+/* footer1 */
+
+.footer1 {
+  background-image: url("/image/footer1bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.footer1 p {
+  color: white;
 }
 
 /* media query */
