@@ -156,14 +156,22 @@ header {
 }
 /* Finding end  */
 
+/* footer homePageFooter */
+.homePageFooter {
+  background-image: url("/image/footer1.1bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* media query */
 @media only screen and (max-width: 1023px) {
   .menuUL {
     /* display: none; */
-    position: absolute;
+    position: fixed;
     top: 88px;
     left: 0;
-    height: 100vh;
+    height: 120vh;
     background-color: #ff605818;
     width: 50vw;
     min-width: 300px;
