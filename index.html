@@ -366,29 +366,35 @@
               <div class="flex lg:flex-row flex-col items-center gap-7">
                 <h2 class="text-[48px] font-bold">Our top courses</h2>
                 <div class="flex gap-4">
-                  <a
-                    data-filter="all"
+                  <button
+                    id="btn1"
+                    type="button"
                     class="cursor-pointer font-bold hover:text-[#FF6158] ease-in duration-150 text-primary relative"
-                    >ALL
+                  >
+                    ALL
                     <span class="absolute top-[-15px] right-[-7px] text-sm"
                       >8</span
                     >
-                  </a>
-                  <a
-                    data-filter=".category-a"
+                  </button>
+                  <button
+                    id="btn2"
+                    type="button"
                     class="cursor-pointer font-bold hover:text-[#FF6158] ease-in duration-150"
-                    >Trending</a
                   >
-                  <a
-                    data-filter=".category-b"
+                    Trending
+                  </button>
+                  <button
+                    id="btn3"
                     class="cursor-pointer font-bold hover:text-[#FF6158] ease-in duration-150"
-                    >Featured</a
                   >
-                  <a
-                    data-filter="category-c"
+                    Featured
+                  </button>
+                  <button
+                    id="btn4"
                     class="cursor-pointer font-bold hover:text-[#FF6158] ease-in duration-150"
-                    >Popular</a
                   >
+                    Popular
+                  </button>
                 </div>
               </div>
             </div>
@@ -403,7 +409,7 @@
           <!-- cards gird -->
           <div class="grid xl:grid-cols-3 lg:grid-cols-2 gap-8 mt-12 mixupCont">
             <!--  -->
-            <div class="relative CourseBox rounded-xl category-a">
+            <div class="relative CourseBox rounded-xl" id="box1">
               <!-- icon -->
               <div
                 class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
@@ -471,7 +477,7 @@
             </div>
 
             <!--  -->
-            <div class="relative CourseBox rounded-xl category-b">
+            <div class="relative CourseBox rounded-xl" id="box2">
               <!-- icon -->
               <div
                 class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
@@ -539,7 +545,7 @@
             </div>
 
             <!--  -->
-            <div class="relative CourseBox rounded-xl category-c">
+            <div class="relative CourseBox rounded-xl" id="box3">
               <!-- icon -->
               <div
                 class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
@@ -607,7 +613,7 @@
             </div>
 
             <!--  -->
-            <div class="relative CourseBox rounded-xl category-a">
+            <div class="relative CourseBox rounded-xl" id="box4">
               <!-- icon -->
               <div
                 class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
@@ -675,7 +681,7 @@
             </div>
 
             <!--  -->
-            <div class="relative CourseBox rounded-xl category-b">
+            <div class="relative CourseBox rounded-xl" id="box5">
               <!-- icon -->
               <div
                 class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
@@ -743,7 +749,7 @@
             </div>
 
             <!--  -->
-            <div class="relative CourseBox rounded-xl category-b">
+            <div class="relative CourseBox rounded-xl" id="box6">
               <!-- icon -->
               <div
                 class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
@@ -1361,13 +1367,6 @@
       src="https://kit.fontawesome.com/f8c835c21e.js"
       crossorigin="anonymous"
     ></script>
-
-    <!-- mixitup -->
-    <script src="Plugins/mixitup/mixitup.js"></script>
-    <!-- // mixitUp start ------------------------------------ -->
-    <script>
-      var mixer = mixitup(".mixupCont");
-    </script>
 
     <!-- link js file -------------------------------------- -->
     <script src="js/mian.js"></script>
