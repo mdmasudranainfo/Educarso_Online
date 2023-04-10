@@ -1,7 +1,8 @@
 // slick slider start
 $(".categorySlider").slick({
   dots: true,
-  infinite: false,
+  infinite: true,
+  arrows: false,
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
@@ -84,10 +85,10 @@ $(document).ready(function () {
 //
 //
 
-const Collapse = document.getElementById("Collapse");
+// const Collapse = document.getElementById("Collapse");
 
-const menuUL = document.getElementById("menuUL");
+// const menuUL = document.getElementById("menuUL");
 
-Collapse.addEventListener("click", () => {
-  menuUL.classList.toggle("hidden");
-});
+// Collapse.addEventListener("click", () => {
+//   menuUL.classList.toggle("hidden");
+// });
