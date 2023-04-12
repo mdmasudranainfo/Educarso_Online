@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&display=swap");
+
+/*  */
+body {
+  font-family: "Inter", sans-serif !important;
+  color: #1f2148;
+  /* font-family: "Kaushan Script", cursive !important; */
+}
+
+nav {
+  background: rgb(205, 231, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 231, 231, 1) 18%,
+    rgba(246, 246, 246, 1) 60%,
+    rgba(216, 214, 238, 1) 98%
+  );
+}
+
+.heroAria3 {
+  background: rgb(205, 231, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 231, 231, 1) 18%,
+    rgba(246, 246, 246, 1) 60%,
+    rgba(216, 214, 238, 1) 98%
+  );
+}
+
+/* intracrtor */
+.intracrtor {
+  box-shadow: 2px 7px 73px 15px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 2px 7px 73px 15px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 2px 7px 73px 15px rgba(0, 0, 0, 0.63);
+}
