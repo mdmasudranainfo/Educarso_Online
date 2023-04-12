@@ -9,6 +9,10 @@
     <!-- Tailwind css cnd  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- slick-->
+    <link rel="stylesheet" href="../Plugins/Home2slick/slick-theme.css" />
+    <link rel="stylesheet" href="../Plugins/Home2slick/slick.css" />
+
     <!-- css -->
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../css/homePage2.css" />
@@ -282,7 +286,7 @@
               </p>
 
               <button
-                class="flex justify-center items-center gap-5 bg-[#4732BA] text-white mt-10 px-5 py-3 rounded-lg font-bold"
+                class="flex justify-center items-center gap-5 bg-[#4732BA] text-white my-10 px-5 py-3 rounded-lg font-bold"
               >
                 <span>More about us</span>
                 <img src="../image/homePage2/2.png" alt="" />
@@ -298,7 +302,9 @@
               Creating a community Of life long learners
             </h1>
 
-            <div class="grid grid-cols-4 py-8 border-y mx-32">
+            <div
+              class="grid lg:grid-cols-4 md:grid-cols-2 gap-4 py-8 border-y sm:mx-32 mx-5"
+            >
               <div class="">
                 <h1 class="text-5xl font-bold">52k+</h1>
                 <p class="text-white">Enrolled Students</p>
@@ -890,11 +896,11 @@
       </section>
 
       <!-- Expert Instructors start  -->
-      <div class="container mx-auto mt-[120px]">
+      <section class="container mx-auto mt-[120px]">
         <h1 class="text-sm text-primary uppercase font-bold text-center">
           Instructors
         </h1>
-        <div class="flex lg:flex-row flex-col justify-ce">
+        <div class="flex lg:flex-row flex-col justify-center">
           <h2 class="text-[48px] font-bold">Expert Instructors</h2>
         </div>
 
@@ -1096,13 +1102,332 @@
             View all instructor
           </button>
         </div>
-      </div>
+      </section>
+
+      <!-- FREE WORKSHOP start-->
+      <section class="container mx-auto mt-[120px] joinFree">
+        <div
+          class="grid md:grid-cols-2 md:p-10 p-5 gap-10 text-white items-center"
+        >
+          <div class="">
+            <img src="../image/homePage2/Video.png" alt="" />
+          </div>
+          <div class="">
+            <h1 class="text-[#FF8181] font-semibold">FREE WORKSHOP</h1>
+            <h2 class="text-5xl font-bold mt-4 mb-6">
+              Join Our Free <br />
+              Workshops
+            </h2>
+            <p class="mb-12 text-white">
+              Donec bibendum, dui id ultrices molestie, neque neque porta
+              felis,<br />
+              id viverra ligula justo interdum mi.
+            </p>
+
+            <button
+              class="bg-primary text-white px-5 py-3 rounded flex items-center gap-2"
+            >
+              <span> More upcoming workshop</span>
+              <img src="../image/homePage2/2.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FREE WORKSHOP end  -->
+
+      <!-- testimonial start -->
+      <section class="container mx-auto mt-[120px] home2Testimonial py-[100px]">
+        <div class="mb-16">
+          <h1 class="text-[#ff8181] text-center uppercase mb-4 font-bold">
+            Testimonials
+          </h1>
+          <h2 class="text-5xl font-bold text-center">
+            Our students says about us
+          </h2>
+        </div>
+
+        <div class="testimonial">
+          <!--  -->
+          <div class="">
+            <div class="p-10 bg-white mx-2">
+              <div class="flex items-center gap-4">
+                <img src="../image/homePage2/testimonial/Img.png" alt="" />
+                <div class="">
+                  <h1>Eleanor Pena</h1>
+                  <p class="text-[#ff8181]">Medical Assistant</p>
+                </div>
+              </div>
+              <div class="mt-6">
+                <p>
+                  You might be raised on a farm. Sometimes <br />
+                  language are difficult and difficult to find the right <br />
+                  the adjective to go with noun.
+                </p>
+                <div class="mt-6">
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="">
+            <div class="p-10 bg-white mx-2">
+              <div class="flex items-center gap-4">
+                <img src="../image/homePage2/testimonial/Img2.png" alt="" />
+                <div class="">
+                  <h1>Eleanor Pena</h1>
+                  <p class="text-[#ff8181]">Medical Assistant</p>
+                </div>
+              </div>
+              <div class="mt-6">
+                <p>
+                  You might be raised on a farm. Sometimes <br />
+                  language are difficult and difficult to find the right <br />
+                  the adjective to go with noun.
+                </p>
+                <div class="mt-6">
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="">
+            <div class="p-10 bg-white mx-2">
+              <div class="flex items-center gap-4">
+                <img src="../image/homePage2/testimonial/Img3.png" alt="" />
+                <div class="">
+                  <h1>Eleanor Pena</h1>
+                  <p class="text-[#ff8181]">Medical Assistant</p>
+                </div>
+              </div>
+              <div class="mt-6">
+                <p>
+                  You might be raised on a farm. Sometimes <br />
+                  language are difficult and difficult to find the right <br />
+                  the adjective to go with noun.
+                </p>
+                <div class="mt-6">
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                  <i class="fa-solid fa-star text-[#FFC947]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial end -->
+
+      <!-- Our Latest Blogs start  -->
+      <section class="container mx-auto mt-[120px]">
+        <h2 class="text-primary font-sm uppercase text-sm font-bold">
+          News & Update
+        </h2>
+        <div
+          class="flex md:flex-row flex-col gap-4 justify-between items-center"
+        >
+          <h1 class="text-[48px] font-bold">Our Latest Blogs</h1>
+          <div class="">
+            <button
+              class="bg-[#ff8181] text-white font-semibold px-5 py-3 rounded flex items-center gap-2"
+            >
+              <span> View all</span>
+              <img src="../image/homePage2/2.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- blog card  -->
+        <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-12">
+          <!-- 1 -->
+          <div class="">
+            <div class="">
+              <img class="w-full" src="/image/blog/Img.png" alt="" />
+            </div>
+            <div class="mt-6">
+              <ul class="list-disc flex gap-10 ml-5 mb-2">
+                <li>05 Feb, 2022</li>
+                <li>5 min</li>
+              </ul>
+              <h1 class="text-xl font-bold mb-4">
+                New Features Enhance Virtual <br />
+                Teaching Learning
+              </h1>
+              <button class="underline text-primary font-bold">
+                Read more
+              </button>
+            </div>
+            <div class=""></div>
+          </div>
+          <!-- 2 -->
+          <div class="">
+            <div class="">
+              <img class="w-full" src="/image/blog/Img-1.png" alt="" />
+            </div>
+            <div class="mt-6">
+              <ul class="list-disc flex gap-10 ml-5 mb-2">
+                <li>05 Feb, 2022</li>
+                <li>5 min</li>
+              </ul>
+              <h1 class="text-xl font-bold mb-4">
+                New Features Enhance Virtual <br />
+                Teaching Learning
+              </h1>
+              <button class="underline text-primary font-bold">
+                Read more
+              </button>
+            </div>
+            <div class=""></div>
+          </div>
+
+          <!-- 2 -->
+          <div class="">
+            <div class="">
+              <img class="w-full" src="/image/blog/Img-2.png" alt="" />
+            </div>
+            <div class="mt-6">
+              <ul class="list-disc flex gap-10 ml-5 mb-2">
+                <li>05 Feb, 2022</li>
+                <li>5 min</li>
+              </ul>
+              <h1 class="text-xl font-bold mb-4">
+                New Features Enhance Virtual <br />
+                Teaching Learning
+              </h1>
+              <button class="underline text-primary font-bold">
+                Read more
+              </button>
+            </div>
+            <div class=""></div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Latest Blogs end  -->
+
+      <!-- register   start -->
+
+      <section class="container mx-auto mt-[120px] register">
+        <div class="flex flex-col text-white items-end">
+          <div
+            class="mt-[105px] mb-[58px] xl:mr-[235px] lg:mr-[100px] sm:mr-[10px]"
+          >
+            <h1 class="sm:text-5xl text-4xl font-bold">
+              Education is about <br />
+              <span class="text-[#ff8181]">creating leader</span> for <br />
+              tomorrow
+            </h1>
+            <p class="text-white mt-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+              Vitae quisque id a, ac urna. Sagittis, ornare ut nibh porta
+            </p>
+            <div class="mt-12">
+              <button
+                class="bg-[#ff8181] text-white font-semibold px-5 py-3 rounded flex items-center gap-2"
+              >
+                <span> Register today</span>
+                <img src="../image/homePage2/2.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- register   end-->
     </main>
+
+    <!-- footer start  -->
+    <footer>
+      <div class="container mx-auto rounded-3xl mt-[120px] py-[120px]">
+        <div
+          class="grid lg:grid-cols-5 gap-5 sm:grid-cols-3 lg:justify-items-center w-full"
+        >
+          <div class=" ">
+            <h1 class="text-xl font-bold italic">Educarso.</h1>
+            <p class="mt-4">
+              Donec bibendum, dui id ultrices <br />
+              molestie, neque neque porta felis,
+            </p>
+          </div>
+          <!--  -->
+          <div class="">
+            <h2 class="text-primary text-sm font-bold uppercase mb-4">
+              Services
+            </h2>
+            <a href="" class="mb-4 block">Email Marketing</a>
+            <a href="" class="mb-4 block">Campaigns</a>
+            <a href="" class="mb-4 block">Branding</a>
+            <a href="" class="mb-4 block">Offline</a>
+          </div>
+
+          <!--  -->
+          <div class="">
+            <h2 class="text-primary text-sm font-bold uppercase mb-4">About</h2>
+            <a href="" class="mb-4 block">Our Story</a>
+            <a href="" class="mb-4 block">Benefits</a>
+            <a href="" class="mb-4 block">Team</a>
+            <a href="" class="mb-4 block">Careers</a>
+          </div>
+          <!--  -->
+          <div class="">
+            <h2 class="text-primary text-sm font-bold uppercase mb-4">Help</h2>
+            <a href="" class="mb-4 block">FAQs</a>
+            <a href="" class="mb-4 block">Contact Us</a>
+          </div>
+          <!--  -->
+          <div class="">
+            <h2 class="text-2xl font-bold mb-4">Subscribe to our newsletter</h2>
+
+            <div class="flex items-center max-w-full relative">
+              <!-- email Icon -->
+              <span class="absolute h-full left-2 top-0 flex items-center">
+                <i class="fa-regular fa-envelope text-black"></i>
+              </span>
+              <input
+                class="w-full focus:outline-none p-3 rounded pl-8 bg-[#F3F3F4]"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <button class="bg-primary text-white rounded w-[144px] py-3 mt-4">
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright  -->
+      <div class="flex container mx-auto py-10 justify-between">
+        <p>©2023- Educarso.</p>
+        <div class="flex gap-4">
+          <i class="fa-brands fa-twitter text-2xl text-[#BAA299]"></i>
+          <i class="fa-brands fa-linkedin text-2xl text-[#BAA299]"></i>
+          <i class="fa-brands fa-facebook text-2xl text-[#BAA299]"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer end  -->
     <!-- jquery -->
     <script src="../js/jquery-3.6.4.min.js"></script>
 
     <!-- js  -->
     <!-- <script src="../js/mian.js"></script> -->
+    <!-- slick slider  -->
+    <script src="../Plugins/Home2slick/slick.min.js"></script>
 
     <script src="../js/homePage2.js"></script>
   </body>

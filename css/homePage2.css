@@ -22,3 +22,29 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* join Free */
+
+.joinFree {
+  background-image: url("../image/homePage2/fbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home2Testimonial {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 212, 216, 1) 0%,
+    rgba(236, 212, 216, 1) 45%,
+    rgba(185, 209, 253, 1) 92%
+  ) !important;
+}
+
+/* register */
+.register {
+  background-image: url(../image/homePage2/registerBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
