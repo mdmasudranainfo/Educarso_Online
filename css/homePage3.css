@@ -5,6 +5,7 @@ body {
   font-family: "Inter", sans-serif !important;
   color: #1f2148;
   /* font-family: "Kaushan Script", cursive !important; */
+  background-color: #ffffff;
 }
 
 nav {
@@ -32,4 +33,32 @@ nav {
   box-shadow: 2px 7px 73px 15px rgba(0, 0, 0, 0.63);
   -webkit-box-shadow: 2px 7px 73px 15px rgba(0, 0, 0, 0.63);
   -moz-box-shadow: 2px 7px 73px 15px rgba(0, 0, 0, 0.63);
+}
+
+/* courses  */
+
+.courseCard {
+}
+
+.enrollBtn {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.7s;
+}
+
+.courseCard:hover .enrollBtn {
+  visibility: visible;
+  background-color: #13aaa04f;
+
+  opacity: 1;
+}
+
+/* instractor  */
+.temHover {
+  background: rgb(214, 167, 235);
+  background: linear-gradient(
+    6deg,
+    rgba(214, 167, 235, 0.8379726890756303) 10%,
+    rgba(216, 214, 238, 0) 100%
+  );
 }

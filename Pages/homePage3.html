@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Educarso 2</title>
+    <title>Educarso 3</title>
 
     <!-- Tailwind css cnd  -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,6 +13,10 @@
     <!-- css -->
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../css/homePage3.css" />
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="../Plugins/Home3slick/slick.css" />
+    <link rel="stylesheet" href="../Plugins/Home3slick/slick-theme.css" />
 
     <!--  -->
     <script
@@ -135,7 +139,7 @@
 
             <div class="flex items-end relative">
               <img
-                class="max-w-full w-[600px]"
+                class="max-w-full"
                 src="../image/homePage3/heroImage.png"
                 alt=""
               />
@@ -191,31 +195,1281 @@
       <div class=""></div>
     </header>
 
-    <!-- Browse top categories -->
-    <section class="container mx-auto mt-[120px]">
-      <div class="text-center relative">
-        <h1 class="text-5xl font-bold">
-          Browse top <span class="text-[#13AAA1]">categories</span>
+    <main>
+      <!-- Browse top categories -->
+      <section class="container mx-auto mt-[120px]">
+        <div class="text-center relative">
+          <h1 class="text-5xl font-bold">
+            Browse top <span class="text-[#13AAA1]">categories</span>
+          </h1>
+
+          <div
+            class="absolute top-[-10px] z-[-1] max-w-full sm:flex hidden left-[50%] justify-center"
+          >
+            <img class="" src="../image/homePage3/Element2.png" alt="" />
+          </div>
+        </div>
+
+        <!-- grid card  4-->
+        <div class="grid lg:grid-cols-4 sm:grid-cols-2 mt-16 mb-8 gap-[30px]">
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img src="../image//homePage3/categorys/la_blogger.png" alt="" />
+            <h1 class="text-xl font-bold">Lifestyle</h1>
+            <p>12 Course</p>
+          </div>
+
+          <!--  -->
+
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img
+              src="../image//homePage3/categorys/iconoir_brain-research.png"
+              alt=""
+            />
+            <h1 class="text-xl font-bold">Human Research</h1>
+            <p>12 Course</p>
+          </div>
+
+          <!--  -->
+
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img src="../image//homePage3/categorys/Group.png" alt="" />
+            <h1 class="text-xl font-bold">Art & Design</h1>
+            <p>12 Course</p>
+          </div>
+
+          <!--  -->
+
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img
+              src="../image//homePage3/categorys/material-symbols_code-sharp.png"
+              alt=""
+            />
+            <h1 class="text-xl font-bold">Art & Design</h1>
+            <p>12 Course</p>
+          </div>
+        </div>
+
+        <!-- grid card 3 -->
+
+        <div class="grid lg:grid-cols-3 sm:grid-cols-2 mt-16 mb-8 gap-[30px]">
+          <!--  -->
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img
+              src="../image//homePage3/categorys/mdi_user-check-outline.png"
+              alt=""
+            />
+            <h1 class="text-xl font-bold">Personal Development</h1>
+            <p>12 Course</p>
+          </div>
+          <!--  -->
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img
+              src="../image//homePage3/categorys/material-symbols_business-center-outline.png"
+              alt=""
+            />
+            <h1 class="text-xl font-bold">Business Studies</h1>
+            <p>12 Course</p>
+          </div>
+          <!--  -->
+          <div
+            class="flex flex-col items-center shadow-xl p-3 gap-[30px] rounded-lg"
+          >
+            <img
+              src="../image//homePage3/categorys/ph_currency-dollar-bold.png"
+              alt=""
+            />
+            <h1 class="text-xl font-bold">Business Studies</h1>
+            <p>12 Course</p>
+          </div>
+        </div>
+
+        <!-- border line  -->
+        <div class="flex gap-5 my-10">
+          <div
+            class="w-[40%] sm:block hidden text-center py-2 border-black border-b"
+          ></div>
+          <div
+            class="sm:w-[20%] w-full text-center py-2 border-black border-b flex gap-2 justify-center"
+          >
+            <span>All Category</span>
+
+            <i class="fa-solid fa-arrow-trend-up"></i>
+          </div>
+          <div
+            class="w-[40%] sm:block hidden text-center py-2 border-black border-b"
+          ></div>
+        </div>
+      </section>
+
+      <!-- learning for skill development start  -->
+      <section class="container mx-auto mt-[120px]">
+        <div class="grid lg:grid-cols-2 gap-8">
+          <div class="relative">
+            <img src="../image/homePage3/learnar.png" alt="" />
+
+            <div class="absolute top-0 right-10 h-full flex items-center">
+              <div
+                class="bg-white p-5 text-center rounded-xl rotate-[25deg] intracrtor"
+              >
+                <h1 class="text-xl font-bold text-[#13AAA1]">23k</h1>
+                <p>Learners</p>
+              </div>
+            </div>
+          </div>
+          <!-- content -->
+          <div class="">
+            <h1
+              class="sm:text-5xl text-4xl font-extrabold leading-[56px] relative"
+            >
+              Over
+              <span class="text-[#13AAA1]">10 years </span>
+              <br />
+              in distance <br />
+              learning for skill <br />
+              development
+
+              <div class="absolute top-[-20px] left-28 z-[-1]">
+                <img src="../image/homePage3/Element2.png" alt="" />
+              </div>
+            </h1>
+
+            <p class="mt-4">
+              Donec bibendum, dui id ultrices molestie, neque neque <br />
+              porta felis, id viverra ligula justo interdum mi. Monotonectally
+              <br />
+              negotiate leveraged imperatives vis-a-vis standardized users.
+            </p>
+            <!--  -->
+            <div class="mt-6">
+              <div class="flex items-center gap-2">
+                <img src="../image/homePage3/checked.png" alt="" />
+                <p class="font-bold">9/10 Average Satisfaction Rate</p>
+              </div>
+
+              <div class="flex items-center gap-2 mt-3">
+                <img src="../image/homePage3/checked.png" alt="" />
+                <p class="font-bold">96% Completitation Rate</p>
+              </div>
+              <div class="flex items-center gap-2 mt-3">
+                <img src="../image/homePage3/checked.png" alt="" />
+                <p class="font-bold">Friendly Environment & Expert Teacher</p>
+              </div>
+            </div>
+
+            <!-- button -->
+            <button
+              class="bg-[#1F2148] text-white rounded-full w-[144px] py-3 mt-10"
+            >
+              More about us
+            </button>
+          </div>
+        </div>
+
+        <!-- counter  -->
+        <div class="grid lg:grid-cols-4 sm:grid-cols-2 mt-16 mb-[100px]">
+          <div class="">
+            <h1 class="text-5xl font-bold">52k+</h1>
+            <p class="mt-3">Enrolled Students</p>
+          </div>
+
+          <!--  -->
+          <div class=" ">
+            <h1 class="text-5xl font-bold">348+</h1>
+            <p class="mt-3">Academic Programs</p>
+          </div>
+          <!--  -->
+          <div class="">
+            <h1 class="text-5xl font-bold">125+</h1>
+            <p class="mt-3">Winning Award</p>
+          </div>
+          <!--  -->
+          <div class="">
+            <h1 class="text-5xl font-bold">37k++</h1>
+            <p class="mt-3">Certified Students</p>
+          </div>
+        </div>
+      </section>
+
+      <!--  Enroll unlimited course start -->
+      <section class="bg-[#E3F5F4] mt-[120px]">
+        <div class="container mx-auto py-[100px]">
+          <h1 class="text-5xl font-extrabold text-center">
+            Enroll unlimited <span class="text-[#13AAA1]">course</span>
+          </h1>
+
+          <!--  -->
+
+          <div class="flex gap-4 justify-center mt-4">
+            <button
+              id="btn1"
+              type="button"
+              class="cursor-pointer font-bold hover:text-[#13AAA1] ease-in duration-150 text-[#13AAA1] relative"
+            >
+              ALL
+              <span class="absolute top-[-15px] right-[-7px] text-sm">8</span>
+            </button>
+            <button
+              id="btn2"
+              type="button"
+              class="cursor-pointer font-bold hover:text-[#13AAA1] ease-in duration-150"
+            >
+              Trending
+            </button>
+            <button
+              id="btn3"
+              class="cursor-pointer font-bold hover:text-[#13AAA1] ease-in duration-150"
+            >
+              Featured
+            </button>
+            <button
+              id="btn4"
+              class="cursor-pointer font-bold hover:text-[#13AAA1] ease-in duration-150"
+            >
+              Popular
+            </button>
+          </div>
+
+          <!--  -->
+          <!-- gird card  start -->
+          <div class="grid xl:grid-cols-2 gap-[30px] mt-12">
+            <!-- 1 -->
+            <div
+              class="bg-white flex md:flex-row flex-col rounded-2xl courseCard"
+            >
+              <div class="relative">
+                <img
+                  class="h-full w-full min-w-[200px]"
+                  src="../image/homePage3/courses/Img.png"
+                  alt=""
+                />
+                <!-- enroll -->
+                <div
+                  class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-between rounded-2xl enrollBtn"
+                >
+                  <div
+                    class="bg-white h-8 w-8 flex items-center justify-center rounded-full cursor-pointer"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+
+                  <div class="">
+                    <button
+                      class="bg-[#13AAA1] text-white rounded-full px-5 py-3 mt-10"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- content -->
+              <div class="w-full">
+                <div class="p-8">
+                  <div class="flex justify-between">
+                    <h1 class="">Art & Design</h1>
+                    <div class="flex items-center gap-4">
+                      <p><i class="fa-regular fa-user"></i> <span>17</span></p>
+                      <p>
+                        <i class="fa-solid fa-folder-open"></i> <span>10</span>
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <h2 class="text-xl font-bold mt-3">
+                    Basic fundamentals of interior & graphics design
+                  </h2>
+
+                  <!--  -->
+                  <div class="flex justify-between items-center mt-8">
+                    <div class="flex gap-3">
+                      <img
+                        class="h-10 w-10"
+                        src="/image/Course/user/Avatar-1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="font-bold">Esther Howard</h4>
+                        <span>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <span class="text-xl font-bold text-[#13AAA1]">$15</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div
+              class="bg-white flex md:flex-row flex-col rounded-2xl courseCard"
+            >
+              <div class="relative">
+                <img
+                  class="h-full w-full min-w-[200px]"
+                  src="../image/homePage3/courses/Img-1.png"
+                  alt=""
+                />
+                <!-- enroll -->
+                <div
+                  class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-between rounded-2xl enrollBtn"
+                >
+                  <div
+                    class="bg-white h-8 w-8 flex items-center justify-center rounded-full cursor-pointer"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+
+                  <div class="">
+                    <button
+                      class="bg-[#13AAA1] text-white rounded-full px-5 py-3 mt-10"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- content -->
+              <div class="w-full">
+                <div class="p-8">
+                  <div class="flex justify-between">
+                    <h1 class="">Art & Design</h1>
+                    <div class="flex items-center gap-4">
+                      <p><i class="fa-regular fa-user"></i> <span>17</span></p>
+                      <p>
+                        <i class="fa-solid fa-folder-open"></i> <span>10</span>
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <h2 class="text-xl font-bold mt-3">
+                    Basic fundamentals of interior & graphics design
+                  </h2>
+
+                  <!--  -->
+                  <div class="flex justify-between items-center mt-8">
+                    <div class="flex gap-3">
+                      <img
+                        class="h-10 w-10"
+                        src="/image/Course/user/Avatar-1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="font-bold">Esther Howard</h4>
+                        <span>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <span class="text-xl font-bold text-[#13AAA1]">$15</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+
+            <div
+              class="bg-white flex md:flex-row flex-col rounded-2xl courseCard"
+            >
+              <div class="relative">
+                <img
+                  class="h-full w-full min-w-[200px]"
+                  src="../image/homePage3/courses/Img-2.png"
+                  alt=""
+                />
+                <!-- enroll -->
+                <div
+                  class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-between rounded-2xl enrollBtn"
+                >
+                  <div
+                    class="bg-white h-8 w-8 flex items-center justify-center rounded-full cursor-pointer"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+
+                  <div class="">
+                    <button
+                      class="bg-[#13AAA1] text-white rounded-full px-5 py-3 mt-10"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- content -->
+              <div class="w-full">
+                <div class="p-8">
+                  <div class="flex justify-between">
+                    <h1 class="">Art & Design</h1>
+                    <div class="flex items-center gap-4">
+                      <p><i class="fa-regular fa-user"></i> <span>17</span></p>
+                      <p>
+                        <i class="fa-solid fa-folder-open"></i> <span>10</span>
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <h2 class="text-xl font-bold mt-3">
+                    Basic fundamentals of interior & graphics design
+                  </h2>
+
+                  <!--  -->
+                  <div class="flex justify-between items-center mt-8">
+                    <div class="flex gap-3">
+                      <img
+                        class="h-10 w-10"
+                        src="/image/Course/user/Avatar-1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="font-bold">Esther Howard</h4>
+                        <span>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <span class="text-xl font-bold text-[#13AAA1]">$15</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+
+            <div
+              class="bg-white flex md:flex-row flex-col rounded-2xl courseCard"
+            >
+              <div class="relative">
+                <img
+                  class="h-full w-full min-w-[200px]"
+                  src="../image/homePage3/courses/Img-3.png"
+                  alt=""
+                />
+                <!-- enroll -->
+                <div
+                  class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-between rounded-2xl enrollBtn"
+                >
+                  <div
+                    class="bg-white h-8 w-8 flex items-center justify-center rounded-full cursor-pointer"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+
+                  <div class="">
+                    <button
+                      class="bg-[#13AAA1] text-white rounded-full px-5 py-3 mt-10"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- content -->
+              <div class="w-full">
+                <div class="p-8">
+                  <div class="flex justify-between">
+                    <h1 class="">Art & Design</h1>
+                    <div class="flex items-center gap-4">
+                      <p><i class="fa-regular fa-user"></i> <span>17</span></p>
+                      <p>
+                        <i class="fa-solid fa-folder-open"></i> <span>10</span>
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <h2 class="text-xl font-bold mt-3">
+                    Basic fundamentals of interior & graphics design
+                  </h2>
+
+                  <!--  -->
+                  <div class="flex justify-between items-center mt-8">
+                    <div class="flex gap-3">
+                      <img
+                        class="h-10 w-10"
+                        src="/image/Course/user/Avatar-1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="font-bold">Esther Howard</h4>
+                        <span>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <span class="text-xl font-bold text-[#13AAA1]">$15</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div
+              class="bg-white flex md:flex-row flex-col rounded-2xl courseCard"
+            >
+              <div class="relative">
+                <img
+                  class="h-full w-full min-w-[200px]"
+                  src="../image/homePage3/courses/Img-4.png"
+                  alt=""
+                />
+                <!-- enroll -->
+                <div
+                  class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-between rounded-2xl enrollBtn"
+                >
+                  <div
+                    class="bg-white h-8 w-8 flex items-center justify-center rounded-full cursor-pointer"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+
+                  <div class="">
+                    <button
+                      class="bg-[#13AAA1] text-white rounded-full px-5 py-3 mt-10"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- content -->
+              <div class="w-full">
+                <div class="p-8">
+                  <div class="flex justify-between">
+                    <h1 class="">Art & Design</h1>
+                    <div class="flex items-center gap-4">
+                      <p><i class="fa-regular fa-user"></i> <span>17</span></p>
+                      <p>
+                        <i class="fa-solid fa-folder-open"></i> <span>10</span>
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <h2 class="text-xl font-bold mt-3">
+                    Basic fundamentals of interior & graphics design
+                  </h2>
+
+                  <!--  -->
+                  <div class="flex justify-between items-center mt-8">
+                    <div class="flex gap-3">
+                      <img
+                        class="h-10 w-10"
+                        src="/image/Course/user/Avatar-1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="font-bold">Esther Howard</h4>
+                        <span>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <span class="text-xl font-bold text-[#13AAA1]">$15</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+
+            <div
+              class="bg-white flex md:flex-row flex-col rounded-2xl courseCard"
+            >
+              <div class="relative">
+                <img
+                  class="h-full w-full min-w-[200px]"
+                  src="../image/homePage3/courses/Img-5.png"
+                  alt=""
+                />
+                <!-- enroll -->
+                <div
+                  class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-between rounded-2xl enrollBtn"
+                >
+                  <div
+                    class="bg-white h-8 w-8 flex items-center justify-center rounded-full cursor-pointer"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+
+                  <div class="">
+                    <button
+                      class="bg-[#13AAA1] text-white rounded-full px-5 py-3 mt-10"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- content -->
+              <div class="w-full">
+                <div class="p-8">
+                  <div class="flex justify-between">
+                    <h1 class="">Art & Design</h1>
+                    <div class="flex items-center gap-4">
+                      <p><i class="fa-regular fa-user"></i> <span>17</span></p>
+                      <p>
+                        <i class="fa-solid fa-folder-open"></i> <span>10</span>
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <h2 class="text-xl font-bold mt-3">
+                    Basic fundamentals of interior & graphics design
+                  </h2>
+
+                  <!--  -->
+                  <div class="flex justify-between items-center mt-8">
+                    <div class="flex gap-3">
+                      <img
+                        class="h-10 w-10"
+                        src="/image/Course/user/Avatar-1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="font-bold">Esther Howard</h4>
+                        <span>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                          <i
+                            class="fa-solid fa-star text-sm text-[#FFB60A]"
+                          ></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <span class="text-xl font-bold text-[#13AAA1]">$15</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- gird card  end -->
+
+          <!--  -->
+          <div class="flex justify-center">
+            <button
+              class="bg-[#1F2148] text-white rounded-full px-5 py-3 mt-10"
+            >
+              View all course
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- learning for skill development end  -->
+
+      <!-- skill student   start -->
+
+      <section class="container mx-auto my-[100px]">
+        <div class="grid lg:grid-cols-2 gap-8">
+          <div class="">
+            <h1 class="text-5xl font-extrabold">
+              Grow your skill, <br />
+              define your <br />
+              <span class="text-[#13AAA1] relative"
+                >bright future
+
+                <img
+                  class="absolute top-[-10px] left-0 z-[-1]"
+                  src="../image/homePage3/Element2.png"
+                  alt=""
+                />
+              </span>
+            </h1>
+            <p class="mt-10">
+              Donec bibendum, dui id ultrices molestie, neque neque <br />
+              porta felis, id viverra ligula justo interdum mi.
+            </p>
+
+            <!--  -->
+            <!--  -->
+            <div class="grid sm:grid-cols-2 mt-10 gap-8">
+              <!--  -->
+              <div class="flex gap-4 items-center">
+                <img src="../image/homePage3/icones/discover.png" alt="" />
+                <p class="font-bold">
+                  Get all courses from <br />
+                  a single platform.
+                </p>
+              </div>
+
+              <!--  -->
+              <div class="flex gap-4 items-center">
+                <img
+                  src="../image/homePage3/icones/sms-notification.png"
+                  alt=""
+                />
+                <p class="font-bold">
+                  Communicate with your <br />
+                  mentors on time.
+                </p>
+              </div>
+
+              <!--  -->
+              <div class="flex gap-4 items-center">
+                <img src="../image/homePage3/icones/people.png" alt="" />
+                <p class="font-bold">
+                  Collaborate on real projects <br />
+                  to learn things.
+                </p>
+              </div>
+
+              <!--  -->
+              <div class="flex gap-4 items-center">
+                <img src="../image/homePage3/icones/graph.png" alt="" />
+                <p class="font-bold">
+                  Get regular updates with <br />
+                  proper tutorials.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex">
+              <button
+                class="bg-[#1F2148] text-white rounded-full px-5 py-3 mt-10"
+              >
+                Get started now
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-center relative">
+            <img class="" src="../image/homePage3/skill.png " alt="" />
+
+            <!--  -->
+            <div class="absolute top-0 right-10 h-full flex items-center">
+              <div
+                class="bg-white p-5 text-center rounded-xl rotate-[-25deg] intracrtor"
+              >
+                <h1 class="text-xl font-bold text-[#13AAA1]">23k</h1>
+                <p>Learners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skill student   end -->
+
+      <!-- Learn anytime  start  -->
+      <section class="container mx-auto mt-[100px]">
+        <h1 class="text-5xl font-extrabold text-center">
+          Learn anytime <br />
+          from
+          <span class="text-[#13AAA1] relative"
+            >anywhere
+
+            <img
+              class="absolute top-[-10px] left-0 z-[-1]"
+              src="../image/homePage3/Element2.png"
+              alt=""
+            />
+          </span>
         </h1>
+        <div class="mt-14 relative p-6 shadow-2xl rounded-2xl">
+          <img class="w-full" src="../image/homePage3/video.png" alt="" />
 
+          <div
+            class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
+          >
+            <img
+              class="cursor-pointer sm:w-[100px] w-[50px]"
+              src="../image/homePage3/VideoIcone.png"
+              alt=""
+            />
+          </div>
+          <div class="absolute top-[-100px] left-[-100px] z-[-2]">
+            <img src="../image/homePage3/Element3.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Learn anytime  end  -->
+
+      <!--testimonial   start -->
+      <section class="bg-[#FBF4FF] pt-[230px] pb-[160px] mt-[-150px]">
+        <div class="container mx-auto">
+          <div
+            class="flex sm:flex-row flex-col justify-between gap-10 md:items-end"
+          >
+            <h1 class="text-5xl font-extrabold relative">
+              What our <br />
+
+              <span class="text-[#13AAA1] relative"
+                >students
+
+                <img
+                  class="absolute top-[-10px] left-0"
+                  src="../image/homePage3/Element2.png"
+                  alt=""
+                />
+              </span>
+              saying
+
+              <div class="absolute lg:block hidden top-0 left-[450px] w-full">
+                <img
+                  class="w-[100px]"
+                  src="../image/homePage3/Element4.png"
+                  alt=""
+                />
+              </div>
+            </h1>
+            <button class="bg-[#1F2148] text-white rounded-full px-5 py-3">
+              View all review
+            </button>
+          </div>
+
+          <!--  -->
+
+          <div class="page3Testimonial mt-14">
+            <div class="bg-white p-[30px] sm:mx-4 mx-1 rounded-lg shadow-xl">
+              <p>
+                “To be able to take course at my own pace & rhythm has been an
+                amazing experience. I can learn my schedule...”
+              </p>
+              <div class="mt-6">
+                <div class="flex gap-4 w-full">
+                  <img src="../image/homePage3/Mask Group.png" alt="" />
+                  <div class="flex justify-between w-full">
+                    <div class="">
+                      <h1 class="text-xl font-bold">Jerome Bell</h1>
+                      <p>Freelance Designer</p>
+                    </div>
+                    <img src="../image/homePage3/qote.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-[30px] sm:mx-4 mx-1 rounded-lg shadow-xl">
+              <p>
+                “To be able to take course at my own pace & rhythm has been an
+                amazing experience. I can learn my schedule...”
+              </p>
+              <div class="mt-6">
+                <div class="flex gap-4 w-full">
+                  <img src="../image/homePage3/Mask Group.png" alt="" />
+                  <div class="flex justify-between w-full">
+                    <div class="">
+                      <h1 class="text-xl font-bold">Jerome Bell</h1>
+                      <p>Freelance Designer</p>
+                    </div>
+                    <img src="../image/homePage3/qote.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-[30px] sm:mx-4 mx-1 rounded-lg shadow-xl">
+              <p>
+                “To be able to take course at my own pace & rhythm has been an
+                amazing experience. I can learn my schedule...”
+              </p>
+              <div class="mt-6">
+                <div class="flex gap-4 w-full">
+                  <img src="../image/homePage3/Mask Group.png" alt="" />
+                  <div class="flex justify-between w-full">
+                    <div class="">
+                      <h1 class="text-xl font-bold">Jerome Bell</h1>
+                      <p>Freelance Designer</p>
+                    </div>
+                    <img src="../image/homePage3/qote.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-[30px] sm:mx-4 mx-1 rounded-lg shadow-xl">
+              <p>
+                “To be able to take course at my own pace & rhythm has been an
+                amazing experience. I can learn my schedule...”
+              </p>
+              <div class="mt-6">
+                <div class="flex gap-4 w-full">
+                  <img src="../image/homePage3/Mask Group.png" alt="" />
+                  <div class="flex justify-between w-full">
+                    <div class="">
+                      <h1 class="text-xl font-bold">Jerome Bell</h1>
+                      <p>Freelance Designer</p>
+                    </div>
+                    <img src="../image/homePage3/qote.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--testimonial   end -->
+
+      <!-- Expert instructor start-->
+
+      <section class="container mx-auto mt-[120px]">
+        <div class="flex lg:flex-row flex-col justify-center">
+          <h2 class="text-[48px] font-bold">
+            Expert
+            <span class="text-[#13AAA1] relative"
+              >students
+
+              <img
+                class="absolute top-[-10px] left-0 z-[-1]"
+                src="../image/homePage3/Element2.png"
+                alt=""
+              />
+            </span>
+          </h2>
+        </div>
+
+        <!-- card grid -->
+        <div class="grid lg:grid-cols-4 sm:grid-cols-2 mt-12 gap-[30px]">
+          <!-- 1 -->
+          <div class="teamBox">
+            <div class="relative overflow-hidden">
+              <img class="w-full" src="/image/Instructors/Img.png" alt="" />
+
+              <!-- absulate qote  -->
+              <div
+                class="teamQote absolute ease-in duration-500 left-0 w-full h-full temHover text-white rounded-2xl flex items-center"
+              >
+                <div class="p-8">
+                  <h2 class="text-xl">
+                    On he a was on that can offers of didn't back by
+                    exploration, attached understanding.
+                  </h2>
+                  <div class="flex justify-evenly mt-10">
+                    <i
+                      class="fa-brands fa-twitter text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-google text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-pinterest text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <h1 class="mt-4">Designer</h1>
+              <h2 class="text-xl font-bold">Jay Phillips</h2>
+              <div class="flex justify-between mt-2 border-y py-3">
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-user text-[#FF8181]"></i>
+                  <p>Students <span class="font-bold">50k</span></p>
+                </div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-star text-[#FF8181]"></i>
+                  <p>Review <span class="font-bold">100k</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="teamBox">
+            <div class="relative overflow-hidden">
+              <img class="w-full" src="/image/Instructors/Img-1.png" alt="" />
+
+              <!-- absulate qote  -->
+              <div
+                class="teamQote absolute ease-in duration-500 left-0 w-full h-full temHover text-white rounded-2xl flex items-center"
+              >
+                <div class="p-8">
+                  <h2 class="text-xl">
+                    On he a was on that can offers of didn't back by
+                    exploration, attached understanding.
+                  </h2>
+                  <div class="flex justify-evenly mt-10">
+                    <i
+                      class="fa-brands fa-twitter text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-google text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-pinterest text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <h1 class="mt-4">Designer</h1>
+              <h2 class="text-xl font-bold">Jay Phillips</h2>
+              <div class="flex justify-between mt-2 border-y py-3">
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-user text-[#FF8181]"></i>
+                  <p>Students <span class="font-bold">50k</span></p>
+                </div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-star text-[#FF8181]"></i>
+                  <p>Review <span class="font-bold">100k</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="teamBox">
+            <div class="relative overflow-hidden">
+              <img class="w-full" src="/image/Instructors/Img-2.png" alt="" />
+
+              <!-- absulate qote  -->
+              <div
+                class="teamQote absolute ease-in duration-500 left-0 w-full h-full temHover text-white rounded-2xl flex items-center"
+              >
+                <div class="p-8">
+                  <h2 class="text-xl">
+                    On he a was on that can offers of didn't back by
+                    exploration, attached understanding.
+                  </h2>
+                  <div class="flex justify-evenly mt-10">
+                    <i
+                      class="fa-brands fa-twitter text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-google text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-pinterest text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <h1 class="mt-4">Designer</h1>
+              <h2 class="text-xl font-bold">Jay Phillips</h2>
+              <div class="flex justify-between mt-2 border-y py-3">
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-user text-[#FF8181]"></i>
+                  <p>Students <span class="font-bold">50k</span></p>
+                </div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-star text-[#FF8181]"></i>
+                  <p>Review <span class="font-bold">100k</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="teamBox">
+            <div class="relative overflow-hidden">
+              <img class="w-full" src="/image/Instructors/Img.png" alt="" />
+
+              <!-- absulate qote  -->
+              <div
+                class="teamQote absolute ease-in duration-500 left-0 w-full h-full temHover text-white rounded-2xl flex items-center"
+              >
+                <div class="p-8">
+                  <h2 class="text-xl">
+                    On he a was on that can offers of didn't back by
+                    exploration, attached understanding.
+                  </h2>
+                  <div class="flex justify-evenly mt-10">
+                    <i
+                      class="fa-brands fa-twitter text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-google text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-pinterest text-white text-3xl cursor-pointer w-[50px] h-[50px] flex justify-center items-center hover:bg-[#13AAA1] rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <h1 class="mt-4">Designer</h1>
+              <h2 class="text-xl font-bold">Jay Phillips</h2>
+              <div class="flex justify-between mt-2 border-y py-3">
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-user text-[#FF8181]"></i>
+                  <p>Students <span class="font-bold">50k</span></p>
+                </div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-regular fa-star text-[#FF8181]"></i>
+                  <p>Review <span class="font-bold">100k</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-11">
+          <button
+            class="bg-[#1F2148] rounded-full text-white w-[200px] py-3 inline-block mt-12"
+          >
+            View all members
+          </button>
+        </div>
+      </section>
+
+      <!-- Expert instructor  end-->
+
+      <!-- brand start -->
+
+      <section class="container mx-auto mt-[120px]">
+        <div class="text-center mb-10">
+          <div class="flex flex-wrap justify-evenly mt-10">
+            <img src="/image/homePage3/brands/Logo.png" alt="" />
+            <img src="/image/homePage3/brands/Logo-1.png" alt="" />
+            <img src="/image/homePage3/brands/Logo-2.png" alt="" />
+            <img src="/image/homePage3/brands/Logo-3.png" alt="" />
+            <img src="/image/homePage3/brands/Logo-4.png" alt="" />
+            <img src="/image/homePage3/brands/Logo.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- brand end  -->
+
+      <!-- blog start  -->
+      <section class="container mx-auto mt-[100px]">
         <div
-          class="absolute top-[-10px] z-[-1] w-full flex right-[-135px] justify-center"
+          class="flex md:flex-row flex-col gap-4 justify-between items-center"
         >
-          <img class="" src="../image/homePage3/Element2.png" alt="" />
-        </div>
-      </div>
+          <h1 class="text-[48px] font-bold">
+            Our Latest
+            <span class="text-[#13AAA1] relative"
+              >Blogs
 
-      <!-- grid card -->
-      <div class="grid grid-cols-4">
-        <div class="">
-          <img src="../image//homePage3/categorys/la_blogger.png" alt="" />
-          <h1>Lifestyle</h1>
+              <img
+                class="absolute top-[10px] left-0 z-[-1]"
+                src="../image/homePage3/Element2.png"
+                alt=""
+              />
+            </span>
+          </h1>
+          <div class="">
+            <button
+              class="bg-[#1F2148] text-white font-semibold w-[200px] py-3 rounded-full inline-block"
+            >
+              View all post
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- blog end  -->
+    </main>
     <!-- js files -->
 
     <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../Plugins/Home3slick/slick.min.js"></script>
 
     <script src="../js/homePage3.js"></script>
     <script src="../js/mian.js"></script>
