@@ -62,3 +62,25 @@ nav {
     rgba(216, 214, 238, 0) 100%
   );
 }
+
+.blogSection {
+  background: rgb(205, 231, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 231, 231, 1) 18%,
+    rgba(246, 246, 246, 1) 60%,
+    rgba(216, 214, 238, 1) 98%
+  );
+}
+
+/* footer */
+footer {
+  background: rgb(232, 189, 254);
+  background: linear-gradient(
+    87deg,
+    rgba(232, 189, 254, 0.4234068627450981) 0%,
+    rgba(255, 255, 255, 1) 22%,
+    rgba(255, 255, 255, 1) 81%,
+    rgba(19, 170, 161, 0.2637429971988795) 100%
+  );
+}
