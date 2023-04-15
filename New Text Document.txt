@@ -1,0 +1,3 @@
+page1: https://6438f632a4c56117020d5dc4--clever-narwhal-a57067.netlify.app/
+page2 : https://6438f632a4c56117020d5dc4--clever-narwhal-a57067.netlify.app/pages/homepage2
+page3: https://6438f632a4c56117020d5dc4--clever-narwhal-a57067.netlify.app/pages/homepage3

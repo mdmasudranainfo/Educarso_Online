@@ -48,3 +48,13 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.autoplaySlider {
+  animation: carosel 30s linear infinite;
+}
+
+@keyframes carosel {
+  100% {
+    transform: translateX(-1500px);
+  }
+}
