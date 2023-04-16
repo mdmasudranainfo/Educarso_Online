@@ -85,10 +85,10 @@ $(document).ready(function () {
 //
 //
 
-// const Collapse = document.getElementById("Collapse");
+const Collapse = document.getElementById("Collapse");
 
-// const menuUL = document.getElementById("menuUL");
+const menuUL = document.getElementById("menuUL");
 
-// Collapse.addEventListener("click", () => {
-//   menuUL.classList.toggle("hidden");
-// });
+Collapse.addEventListener("click", () => {
+  menuUL.classList.toggle("hidden");
+});

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="../Plugins/slick/slick.css" />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/Plugins/slick/slick-theme.css"
+    />
+
+    <!-- Tailwind css cnd  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/homePage2.css" />
+
+    <!--  -->
+    <script
+      src="https://kit.fontawesome.com/f8c835c21e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Instructor Profile</title>
+  </head>
+  <body>
+    <header
+      class="bg-[url('https://i.ibb.co/JC8pY0K/aboutBg.png')] bg-no-repeat bg-cover bg-center"
+    >
+      <nav class="py-5 bg-[#F0E6E2] fixed w-full top-0 z-50">
+        <div class="container mx-auto">
+          <div class="flex justify-between items-center">
+            <!-- Collapse Button -->
+            <div id="Collapse" class="btn lg:hidden block">
+              <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
+            </div>
+            <div class="">
+              <ul id="menuUL" class="lg:flex block hidden gap-8 menuUL">
+                <li>
+                  <h1 class="font-bold text-lg">Educarso</h1>
+                </li>
+                <li class="flex items-center gap-2 dropdown">
+                  <span>Home</span>
+                  <i class="fa-solid fa-caret-down"></i>
+
+                  <ul>
+                    <li><a href="/Pages/homePage2.html">home 2</a></li>
+                    <li><a href="">home 3</a></li>
+                    <li><a href="">home 4</a></li>
+                  </ul>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span>Pages</span>
+                  <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span>Course</span>
+                  <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span>Blog</span>
+                  <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span>Blog</span>
+                  <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span>Contact</span>
+                  <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-3">
+              <button class="px-4 py-2 md:block hidden">
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+              </button>
+              <button class="bg-white rounded-[6px] px-7 py-3 font-semibold">
+                Log In
+              </button>
+              <button
+                class="text-white bg-black rounded-[6px] px-7 py-3 font-semibold"
+              >
+                Sing Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero Aria -->
+      <div class="flex flex-col justify-center items-center">
+        <div class="my-24 mt-40">
+          <h1 class="text-5xl font-bold">Instructor Profile</h1>
+          <div class="flex gap-6 justify-center">
+            <p>Home</p>
+            <p class="flex items-center gap-1 text-primary">
+              <i class="fa-solid fa-circle text-[8px]"></i>
+              <span>Instructor Profile</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container mx-auto">
+        <div class="py-[100px]">
+          <div class="flex gap-[50px] lg:flex-row flex-col">
+            <!-- profile -->
+            <div class="">
+              <div class="px-[52px] bg-[#0E0605] py-[48px] rounded-[20px]">
+                <div class="">
+                  <img src="https://i.ibb.co/Jq0KsrF/Img.png" alt="" />
+                </div>
+                <div class="mt-[32px] border-b">
+                  <p class="text-white">Designer</p>
+                  <h4
+                    class="text-[24px] font-bold leading-[32px] mt-[4px] pb-[20px] text-white"
+                  >
+                    Jay Phillips
+                  </h4>
+                </div>
+                <div class="py-[16px] border-b">
+                  <p class="text-white">Call: (+987) 987 654 321</p>
+                  <p class="mt-[4px] text-white">
+                    Email: phillips.example@gmail.com
+                  </p>
+                </div>
+                <div class="pt-[32px] pb-[40px] flex gap-[24px]">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                  <i class="fa-brands fa-facebook text-white"></i>
+                </div>
+                <div class="">
+                  <button
+                    class="text-[16px] font-semibold px-[32px] py-[14px] bg_primary text-white rounded-[6px]"
+                  >
+                    Contact with me
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- data -->
+            <div class="px-[10px]">
+              <!-- about_heading -->
+              <div class="pb-[20px] border-b">
+                <h4 class="text-[32px] leading-[32px] font-bold">About Me</h4>
+              </div>
+              <!-- About_details -->
+              <div class="mt-[24px] mb-[56px]">
+                <p>
+                  Hello there! My name is
+                  <span class="text_primary">Jay Phillips</span>. I am a web
+                  designer & developer, and I'm very passionate and dedicated to
+                  my work.
+                </p>
+                <p class="mt-[32px]">
+                  With 20 years experience as a professional a graphic designer,
+                  I have acquired the skills and knowledge necessary to make
+                  your project a success. Competently aggregate granular.
+                </p>
+              </div>
+              <!-- users_counter -->
+              <div
+                class="bg-[#F5F0EE] mb-[56px] py-[48px] px-[100px] rounded-[16px]"
+              >
+                <div class="flex gap-[150px]">
+                  <div class="flex gap-[20px] items-center">
+                    <i
+                      class="fa-regular fa-user rounded-full p-[20px] bg-[#B5E4CA]"
+                    ></i>
+                    <div class="">
+                      <h4 class="text-[20px] leading-[32px] font-bold mb-[4px]">
+                        50k
+                      </h4>
+                      <p>Total Students</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-[20px] items-center">
+                    <i
+                      class="fa-regular fa-star rounded-full p-[20px] bg-[#FFBC99]"
+                    ></i>
+                    <div class="">
+                      <h4 class="text-[20px] leading-[32px] font-bold mb-[4px]">
+                        100k
+                      </h4>
+                      <p>Total Reviews</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- my_course -->
+
+              <h1 class="text-5xl font-bold">My Courses</h1>
+              <div
+                class="grid xl:grid-cols-2 lg:grid-cols-2 gap-8 my-12 mixupCont"
+              >
+                <!--  -->
+                <div class="relative CourseBox rounded-xl" id="box1">
+                  <!-- icon -->
+                  <div
+                    class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <img
+                    class="w-full courseImg"
+                    src="/image/Course/Img.png"
+                    alt=""
+                  />
+                  <div
+                    class="bg-white p-8 courseText rounded-b-3xl hover:rounded-t-3xl"
+                  >
+                    <div class="flex justify-between items-center">
+                      <h1 class="text-primary font-bold text-sm uppercase">
+                        English
+                      </h1>
+                      <div class="flex items-center gap-4">
+                        <p>
+                          <i class="fa-regular fa-user"></i> <span>17</span>
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-folder-open"></i>
+                          <span>10</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <h2 class="text-xl font-bold mt-4">
+                      Basic fundamentals of interior & <br />
+                      graphics design
+                    </h2>
+                    <p class="cursePragruf hidden mt-8">
+                      Appropriately myocardinate 24/365 schemas vis-a-vis an
+                      expanded array of testing procedures.
+                    </p>
+                    <!--  -->
+                    <div class="flex justify-between items-center mt-8">
+                      <div class="flex gap-3">
+                        <img
+                          class="h-10 w-10"
+                          src="/image/Course/user/Avatar-1.png"
+                          alt=""
+                        />
+                        <div class="">
+                          <h4 class="font-bold">Esther Howard</h4>
+                          <span>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="">
+                        <span class="text-xl font-bold">$15</span>
+                      </div>
+                    </div>
+
+                    <button
+                      class="bg-primary button hidden text-white w-full py-3 rounded mt-8"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+
+                <!--  -->
+                <div class="relative CourseBox rounded-xl" id="box2">
+                  <!-- icon -->
+                  <div
+                    class="bg-white absolute top-8 left-8 h-8 w-8 flex items-center justify-center rounded-full bookmarkIcone"
+                  >
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <img
+                    class="w-full courseImg"
+                    src="/image/Course/Img-1.png"
+                    alt=""
+                  />
+                  <div
+                    class="bg-white p-8 courseText rounded-b-3xl hover:rounded-t-3xl"
+                  >
+                    <div class="flex justify-between items-center">
+                      <h1 class="text-primary font-bold text-sm uppercase">
+                        English
+                      </h1>
+                      <div class="flex items-center gap-4">
+                        <p>
+                          <i class="fa-regular fa-user"></i> <span>17</span>
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-folder-open"></i>
+                          <span>10</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <h2 class="text-xl font-bold mt-4">
+                      Basic fundamentals of interior & <br />
+                      graphics design
+                    </h2>
+                    <p class="cursePragruf hidden mt-8">
+                      Appropriately myocardinate 24/365 schemas vis-a-vis an
+                      expanded array of testing procedures.
+                    </p>
+                    <!--  -->
+                    <div class="flex justify-between items-center mt-8">
+                      <div class="flex gap-3">
+                        <img
+                          class="h-10 w-10"
+                          src="/image/Course/user/Avatar-1.png"
+                          alt=""
+                        />
+                        <div class="">
+                          <h4 class="font-bold">Esther Howard</h4>
+                          <span>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-sm text-[#FFB60A]"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="">
+                        <span class="text-xl font-bold">$15</span>
+                      </div>
+                    </div>
+
+                    <button
+                      class="bg-primary button hidden text-white w-full py-3 rounded mt-8"
+                    >
+                      Enroll now
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- happy_learners -->
+              <section class="mt-[56px]">
+                <div class="relative">
+                  <div class="">
+                    <div class="">
+                      <div class="">
+                        <h4
+                          class="text-[32px] font-bold leading-[40px] mb-[24px]"
+                        >
+                          Happy learners says
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[30px]"
+                    >
+                      <div
+                        class="py-[36px] px-[30px] shadowc bg-white rounded-[16px]"
+                      >
+                        <div class="">
+                          <p class="font-medium mb-[25px]">
+                            “To be able to take course at my own pace & rhythm
+                            has been an amazing experience. I can learn my
+                            schedule...”
+                          </p>
+                          <div class="flex justify-between items-center">
+                            <div class="flex gap-[12px]">
+                              <img
+                                src="https://i.ibb.co/wg5GPsb/Ellipse-21.png"
+                                alt=""
+                              />
+                              <div class="">
+                                <h4 class="font-bold text-[20px]">
+                                  Jerome Bell
+                                </h4>
+                                <p>Freelance Designer</p>
+                              </div>
+                            </div>
+                            <div class="opacity-[.5]">
+                              <img
+                                src="https://i.ibb.co/LvNbGYw/Vector-1.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="py-[36px] px-[30px] hidden md:block shadowc bg-white rounded-[16px]"
+                      >
+                        <div class="">
+                          <p class="font-medium mb-[25px]">
+                            “To be able to take course at my own pace & rhythm
+                            has been an amazing experience. I can learn my
+                            schedule...”
+                          </p>
+                          <div class="flex justify-between items-center">
+                            <div class="flex gap-[12px]">
+                              <img
+                                src="https://i.ibb.co/CH5ZqnX/Ellipse-21-1.png"
+                                alt=""
+                              />
+                              <div class="">
+                                <h4 class="font-bold text-[20px]">
+                                  Cody Fisher
+                                </h4>
+                                <p>Freelance Designer</p>
+                              </div>
+                            </div>
+                            <div class="opacity-[.5]">
+                              <img
+                                src="https://i.ibb.co/LvNbGYw/Vector-1.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex pt-[40px] items-center justify-center gap-4">
+                    <div class="w-[10px] h-[10px] bg-black rounded-full"></div>
+                    <div class="border border-black rounded-full p-[8px]">
+                      <div
+                        class="w-[10px] h-[10px] bg-primary rounded-full"
+                      ></div>
+                    </div>
+                    <div class="w-[10px] h-[10px] bg-black rounded-full"></div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer  -->
+
+    <footer>
+      <div
+        class="container mx-auto homePageFooter rounded-3xl mt-[120px] py-[120px] text-white"
+      >
+        <div
+          class="grid lg:grid-cols-5 gap-5 sm:grid-cols-3 lg:justify-items-center w-full"
+        >
+          <div class=" ">
+            <h1 class="text-xl font-bold italic">Educarso.</h1>
+            <p class="mt-4 text-white">
+              Donec bibendum, dui id ultrices <br />
+              molestie, neque neque porta felis,
+            </p>
+          </div>
+          <!--  -->
+          <div class="">
+            <h2 class="text-primary text-sm font-bold uppercase mb-4">
+              Services
+            </h2>
+            <p class="mb-4 text-white">Email Marketing</p>
+            <p class="mb-4 text-white">Campaigns</p>
+            <p class="mb-4 text-white">Branding</p>
+            <p class="mb-4 text-white">Offline</p>
+          </div>
+
+          <!--  -->
+          <div class="">
+            <h2 class="text-primary text-sm font-bold uppercase mb-4">About</h2>
+            <p class="mb-4 text-white">Our Story</p>
+            <p class="mb-4 text-white">Benefits</p>
+            <p class="mb-4 text-white">Team</p>
+            <p class="mb-4 text-white">Careers</p>
+          </div>
+          <!--  -->
+          <div class="">
+            <h2 class="text-primary text-sm font-bold uppercase mb-4">Help</h2>
+            <p class="mb-4 text-white">FAQs</p>
+            <p class="mb-4 text-white">Contact Us</p>
+          </div>
+          <!--  -->
+          <div class="">
+            <h2 class="text-2xl font-bold mb-4">Subscribe to our newsletter</h2>
+
+            <div class="flex items-center max-w-full relative">
+              <!-- email Icon -->
+              <span class="absolute h-full left-2 top-0 flex items-center">
+                <i class="fa-regular fa-envelope text-black"></i>
+              </span>
+              <input
+                class="w-full focus:outline-none p-3 rounded pl-8"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <button
+              class="bg-primary text-white rounded w-[144px] py-3 rounded-l-none mt-4"
+            >
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright  -->
+      <div class="flex container mx-auto py-10 justify-between">
+        <p>©2023- Educarso.</p>
+        <div class="flex gap-4">
+          <i class="fa-brands fa-twitter text-2xl text-[#BAA299]"></i>
+          <i class="fa-brands fa-linkedin text-2xl text-[#BAA299]"></i>
+          <i class="fa-brands fa-facebook text-2xl text-[#BAA299]"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- jquery  -->
+  <script src="../js/jquery-3.6.4.min.js"></script>
+
+  <script src="../Plugins/slick/slick.min.js"></script>
+  <!-- fontAwsam Cdn -->
+  <script
+    src="https://kit.fontawesome.com/f8c835c21e.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- <script src="../js/homePage3.js"></script> -->
+
+  <!-- link js file -------------------------------------- -->
+  <script src="../js/mian.js"></script>
+</html>
