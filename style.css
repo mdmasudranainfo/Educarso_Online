@@ -60,7 +60,8 @@ img {
   background-color: white;
   display: none;
 
-  width: 80px;
+  width: 120px;
+  text-align: center;
 }
 .dropdown ul li {
   padding: 10px 0px;
