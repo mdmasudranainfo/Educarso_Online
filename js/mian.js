@@ -1,4 +1,5 @@
 // slick slider start
+
 $(".categorySlider").slick({
   dots: true,
   infinite: true,
@@ -35,7 +36,13 @@ $(".categorySlider").slick({
     // instead of a settings object
   ],
 });
+
 // slick slider end
+
+$(".Review").slick({
+  arrows: false,
+  dots: true,
+});
 
 // make  mixitup start
 
