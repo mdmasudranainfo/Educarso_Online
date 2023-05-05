@@ -193,3 +193,12 @@ img {
     width: 150px;
   }
 }
+
+/* navbar bg style */
+nav {
+  background-color: transparent;
+}
+
+.addBg {
+  background-color: #f0e6e2;
+}

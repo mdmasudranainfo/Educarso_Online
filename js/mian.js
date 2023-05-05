@@ -99,3 +99,14 @@ const menuUL = document.getElementById("menuUL");
 Collapse.addEventListener("click", () => {
   menuUL.classList.toggle("hidden");
 });
+
+// scroll background color
+$(window).scroll(function () {
+  $("nav").toggleClass("addBg", $(this).scrollTop() > 50);
+});
+
+document.getElementById("accordion").addEventListener("click", () => {
+  const OffOn = document.getElementById("OffOn");
+  OffOn.classList.toggle("hidden");
+  // OffOn.classList.toggle("opacity-0");
+});
