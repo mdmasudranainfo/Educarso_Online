@@ -192,3 +192,14 @@
   /* padding: 10px; */
   border-radius: 50%;
 }
+
+/*  */
+.Review.slick-dots li.slick-active button:before {
+  color: red !important;
+}
+.Review .slick-dots li button:before {
+  color: white;
+}
+.Review .slick-dots li.slick-active {
+  border: 1px solid white !important;
+}
